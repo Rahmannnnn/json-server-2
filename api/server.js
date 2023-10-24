@@ -2,6 +2,7 @@
 const jsonServer = require('json-server')
 
 const server = jsonServer.create()
+const auth = require('json-server-auth')
 
 // Uncomment to allow write operations
 // const fs = require('fs')
@@ -22,6 +23,7 @@ server.use(jsonServer.rewriter({
     '/api/*': '/$1',
     '/blog/:resource/:id/show': '/:resource/:id'
 }))
+server.use(auth)
 server.use(router)
 server.listen(3000, () => {
     console.log('JSON Server is running')
