@@ -169,5 +169,6 @@
 			"value": "Folk"
 		}
 	],
-	"balances": []
+	"balances": [],
+	"admins": []
 }
