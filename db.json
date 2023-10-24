@@ -9,33 +9,6 @@
 			"wallets": [],
 			"orders": [],
 			"wishlists": []
-		},
-		{
-			"email": "arif2@gmail.com",
-			"password": "$2a$10$m7EaUfk7EAh4FPzwHdlWleK3qvtbqIgRdc6fUrNu5PGvdaDaEeraW",
-			"id": "36f4b255-47c7-487b-a9fc-afddbe9914b6",
-			"role": "USER",
-			"membershipId": "dec26b5c-c718-40a4-9b04-c2fc448a69d1",
-			"wallets": [],
-			"orders": [],
-			"wishlists": [],
-			"membership": {
-				"id": "dec26b5c-c718-40a4-9b04-c2fc448a69d1",
-				"price": 300000,
-				"name": "platinum",
-				"discount": 20,
-				"image": "https://res.cloudinary.com/danschgov/image/upload/v1697985707/nextjs/assets/ud6vpvps05mpel6nlvuu.svg"
-			}
-		},
-		{
-			"email": "arif3@gmail.com",
-			"password": "$2a$10$fSNATzUVtPO4vAmwcwgUN.VjaJI1aR6Krl345CVDdPBlyJLxAgJZy",
-			"id": "70f84056-e713-423e-b306-0213a6c0190b",
-			"role": "USER",
-			"membershipId": "5028aed4-bfbe-4ce7-be24-b563ca03b7cd",
-			"wallets": [],
-			"orders": [],
-			"wishlists": []
 		}
 	],
 	"memberships": [
@@ -72,16 +45,6 @@
 		{
 			"id": "c8ab9ab6-bd9c-4c87-94fb-c7c8ae1ab5fd",
 			"userId": "eb850bbb-98c4-4755-9621-de4f71d2e530",
-			"balance": 0
-		},
-		{
-			"id": "e5b2dd6f-7088-46ca-8aa8-2329f2c0ab09",
-			"userId": "36f4b255-47c7-487b-a9fc-afddbe9914b6",
-			"balance": 2043304
-		},
-		{
-			"id": "37db11d0-b6a5-4509-b384-4d763c64470e",
-			"userId": "70f84056-e713-423e-b306-0213a6c0190b",
 			"balance": 0
 		}
 	],
